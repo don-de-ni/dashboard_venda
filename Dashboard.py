@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
-import plotly as px
+import plotly.express as px
 
 def formata_numero(valor, prefixo=''):
     for unidade in ['', 'mil']:
